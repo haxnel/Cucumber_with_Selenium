@@ -38,7 +38,5 @@ bin/
 ### VS Code ###
 .vscode/
 
-*.java linguist-language=java
-
 ### Mac OS ###
 .DS_Store

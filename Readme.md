@@ -74,7 +74,7 @@ task (Kalimat anda sendiri){
 ```
 ### Dependencies
 Untuk pengaturan dependencies terdapat pada file build.gradle. Berikut untuk dependencies yang ada pada projek:
-````
+```
 ...
 
 dependencies {
@@ -87,18 +87,18 @@ dependencies {
 }
 
 ...
-````
+```
 Disini dependencies sudah dipasangkan pada file build.gradle, namun jika anda mengalami kendala dependencies 
 anda dapat mengunjungi website [Maven Repository]("https://mvnrepository.com/") dan mengganti dependencies yang terjadi error.
 
 ## Cara Run Projek
 Berikut cara untuk menjalankan projek keseluruhan di terminal menggunakan custom task yang telah dibuat:
 
-```agsl
+```
 ./gradlew task (nama custom task anda)
 ```
 Pada projek ini, untuk custom task menggunakan task tesCucumber, maka penulisan pada terminal seperti berikut:
-```agsl
+```
 ./gradlew task tesCucumber
 ```
 

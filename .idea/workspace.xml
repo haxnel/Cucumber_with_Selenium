@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c785df0-65b2-447d-88e1-f785e2e17cdc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/BaseTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/BaseTesting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

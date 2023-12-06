@@ -5,33 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c785df0-65b2-447d-88e1-f785e2e17cdc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/BaseTesting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/CucumberTesting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/page/Home.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/page/KeranjangCheckout.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/page/Login.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/page/TombolCartHome.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/stepdef/CheckOutDef.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/stepdef/CucumberHooks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/stepdef/HomeDef.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/stepdef/LoginDef.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/stepdef/TombolCartDef.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/CekTombolBarang.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Checkout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/LogOutPage.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

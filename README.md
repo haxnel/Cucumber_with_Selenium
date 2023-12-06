@@ -59,7 +59,11 @@ task tesCucumber(){
 
 ...
 
-*Note: Kurung buka tutup dihilangkan / dihapus
+*Note: 
+- Kurung buka tutup dihilangkan / dihapus.
+- Pada plugin bisa terutama untuk report bisa di kostumisasi 
+  sesuai keinginan untuk menaruh hasil report.
+
 ```
 Anda juga dapa merubah kalimat pada task dengan kalimat anda sendiri seperti:
 ```
@@ -90,6 +94,8 @@ dependencies {
 ```
 Disini dependencies sudah dipasangkan pada file build.gradle, namun jika anda mengalami kendala dependencies 
 anda dapat mengunjungi website [Maven Repository]("https://mvnrepository.com/") dan mengganti dependencies yang terjadi error.
+
+#### Penting: Jangan lupa untuk load build.gradle agar dependencies terbaca.
 
 ## Cara Run Projek
 Berikut cara untuk menjalankan projek keseluruhan di terminal menggunakan custom task yang telah dibuat:

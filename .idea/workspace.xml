@@ -4,7 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c785df0-65b2-447d-88e1-f785e2e17cdc" name="Changes" comment="" />
+    <list default="true" id="9c785df0-65b2-447d-88e1-f785e2e17cdc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/BaseTesting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/CucumberTesting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/page/Home.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/page/KeranjangCheckout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/page/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/page/TombolCartHome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/stepdef/CheckOutDef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/stepdef/CucumberHooks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/stepdef/HomeDef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/stepdef/LoginDef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/stepdef/TombolCartDef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CekTombolBarang.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Checkout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/LogOutPage.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/login.feature" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,12 +43,35 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2Z4GfmZQAwXZOsoSoawL6PWmPr1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -31,9 +82,124 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Tidak memasukan password pada box password">
+    <configuration name="Scenario: Dapat kembali ke Home page setelah masuk ke keranjang" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Checkout.feature" />
+      <option name="GLUE" value="com.example.stepdef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="untitled.test" />
+      <option name="NAME_FILTER" value="^Dapat kembali ke Home page setelah masuk ke keranjang$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Dapat kembali ke Home page setelah masuk ke keranjang$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Dapat kembali ke Home page setelah masuk ke keranjang" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Dapat melakukan cancel saat akan checkout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Checkout.feature" />
+      <option name="GLUE" value="com.example.stepdef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="untitled.test" />
+      <option name="NAME_FILTER" value="^Dapat melakukan cancel saat akan checkout$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Dapat melakukan cancel saat akan checkout$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Dapat melakukan cancel saat akan checkout" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Login dengan user dan pass Invalid" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/login.feature" />
+      <option name="GLUE" value="com.example.stepdef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="untitled.test" />
+      <option name="NAME_FILTER" value="^Login dengan user dan pass Invalid$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login dengan user dan pass Invalid$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login dengan user dan pass Invalid" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Tidak dapat mengisi box Last Name" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Checkout.feature" />
+      <option name="GLUE" value="com.example.stepdef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="untitled.test" />
+      <option name="NAME_FILTER" value="^Tidak dapat mengisi box Last Name$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Tidak dapat mengisi box Last Name$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Tidak dapat mengisi box Last Name" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Tidak memasukan password pada box password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/login.feature" />
+      <option name="GLUE" value="com.example.stepdef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="untitled.test" />
+      <option name="NAME_FILTER" value="^Tidak memasukan password pada box password$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Tidak memasukan password pada box password$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Tidak memasukan password pada box password" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: Tidak memasukan password pada box password" />
+        <item itemvalue="Cucumber Java.Scenario: Login dengan user dan pass Invalid" />
+        <item itemvalue="Cucumber Java.Scenario: Tidak dapat mengisi box Last Name" />
+        <item itemvalue="Cucumber Java.Scenario: Dapat melakukan cancel saat akan checkout" />
+        <item itemvalue="Cucumber Java.Scenario: Dapat kembali ke Home page setelah masuk ke keranjang" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

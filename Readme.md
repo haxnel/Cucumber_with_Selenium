@@ -74,7 +74,7 @@ task (Kalimat anda sendiri){
 ```
 ### Dependencies
 Untuk pengaturan dependencies terdapat pada file build.gradle. Berikut untuk dependencies yang ada pada projek:
-````
+```
 ...
 
 dependencies {
@@ -87,23 +87,25 @@ dependencies {
 }
 
 ...
-````
+```
 Disini dependencies sudah dipasangkan pada file build.gradle, namun jika anda mengalami kendala dependencies 
 anda dapat mengunjungi website [Maven Repository]("https://mvnrepository.com/") dan mengganti dependencies yang terjadi error.
 
 ## Cara Run Projek
 Berikut cara untuk menjalankan projek keseluruhan di terminal menggunakan custom task yang telah dibuat:
 
-```agsl
+```
 ./gradlew task (nama custom task anda)
 ```
 Pada projek ini, untuk custom task menggunakan task tesCucumber, maka penulisan pada terminal seperti berikut:
-```agsl
+```
 ./gradlew task tesCucumber
 ```
 
-Untuk dokumentasi Selenium dapat dilihat [disini](https://www.selenium.dev/documentation/)
+Untuk dokumentasi Selenium dapat dilihat [disini]("https://www.selenium.dev/documentation/")
 
-Untuk dokumentasi Cucumber dapat dilihat [disini](https://cucumber.io/docs/cucumber/)
+Untuk dokumentasi Cucumber dapat dilihat [disini]("https://cucumber.io/docs/cucumber/")
 
-Untuk download Java versi 17 - 19 [disini](https://jdk.java.net/archive/)
+Untuk download Java versi 17 - 19 [disini]("https://jdk.java.net/archive/")
+
+*Terjadi kesalahan pembacaan Languages repositori yang seharusnya Java Gherkin menjadi Html. Jika ada saran atau refrensi untuk perbaikan sangat diterima.

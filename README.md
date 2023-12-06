@@ -4,6 +4,17 @@ Pada repositor ini teradapat kode simpel bagaimana cara untuk melakukan testing 
 Selenium dan Cucumber dengan basis bahasa pemrograman Java. Untuk pengetesan sudah terdapat pengetesan secara
 positif maupun negative dan pembatasan testing.
 
+## Pengujian projek
+Dalam projek ini, testing dilakukan dengan menggunakan website [SauceDemo](https://www.saucedemo.com/).
+
+Pengetesan dilakukan dengan mengambil beberapa test, seperti:
+* Testing CheckOut
+* Teting Login
+* Testing LogOut
+* Testing Button
+
+Hasil report dapat dilihat pada folder bagan reports/html.
+
 ## Struktur Proyek (Project Structure)
 | Folder      | Description                                                 |
 |-------------|-------------------------------------------------------------|

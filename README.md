@@ -35,7 +35,7 @@ Jika sudah terinstall, rubah dahulu kode pada task yang terdapat pada build.grad
 
 *Note: Kurung buka tutup dihilangkan / dihapus
 ```
-```agsl
+```
 ...
 
 task tesCucumber(){

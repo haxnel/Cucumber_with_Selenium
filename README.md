@@ -114,4 +114,7 @@ Untuk dokumentasi Cucumber dapat dilihat [disini]("https://cucumber.io/docs/cucu
 
 Untuk download Java versi 17 - 19 [disini]("https://jdk.java.net/archive/")
 
-*Terjadi kesalahan pembacaan Languages repositori yang seharusnya Java Gherkin menjadi Html. Jika ada saran atau refrensi untuk perbaikan sangat diterima.
+*Terjadi kesalahan pembacaan Languages repositori yang seharusnya Java Gherkin menjadi Html.
+Jika bagan reports dihilangkan, maka pembacaan Languages repositori benar.
+
+*Jika ada saran dan refrensi perbaikan sangat diterima. Terima kasih

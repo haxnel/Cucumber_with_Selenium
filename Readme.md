@@ -107,3 +107,5 @@ Untuk dokumentasi Selenium dapat dilihat [disini](https://www.selenium.dev/docum
 Untuk dokumentasi Cucumber dapat dilihat [disini](https://cucumber.io/docs/cucumber/)
 
 Untuk download Java versi 17 - 19 [disini](https://jdk.java.net/archive/)
+
+*Terjadi kesalahan pembacaan Languages repositori yang seharusnya Java Gherkin menjadi Html. Jika ada saran atau refrensi untuk perbaikan sangat diterima.

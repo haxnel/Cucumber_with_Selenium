@@ -8,8 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
-
+  run-automate-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -30,6 +29,22 @@ jobs:
     # Setup Gradlew
     - name: Setup Gradlew
       run: chmod +x gradlew
+      
+    #Archive artifact test
+    - name: Archive artifact result Test
+      uses: actions/upload-artifact@v3.1.3
+      if: always()
+      with: 
+        name: Testing Reports
+        path: reports
+
+    # Deploy to Github Page
+    - name: Deploy report test to Github Page
+      uses: peaceiris/actions-gh-pages@v3.9.3
+      if: always()
+      with:
+        PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PUBLISH_DIR: reports
 
     # Setup Executing Test
     - name: Setup executing test

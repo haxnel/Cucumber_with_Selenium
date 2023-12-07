@@ -1,0 +1,39 @@
+name: Java CI with Gradle
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    # Download Repo
+    - uses: actions/checkout@v3
+    
+    # Setup Java
+    - name: Set up JDK 11
+      uses: actions/setup-java@v3
+      with:
+        java-version: '11'
+        distribution: 'temurin'
+
+    # Install Browser
+    - name: Setup Chrome
+      uses: browser-actions/setup-chrome@v1.4.0
+
+    # Setup Gradlew
+    - name: Setup Gradlew
+      run: chmod +x gradlew
+
+    # Setup Executing Test
+    - name: Setup executing test
+      run : ./gradlew tesCucumber
+    
+  
+          

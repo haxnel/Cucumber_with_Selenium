@@ -42,8 +42,8 @@ jobs:
         name: Testing Reports
         path: reports
 
-    # Deploy to Github Page
-    - name: Deploy report test to Github Page
+    # Deploy to GitHub Page
+    - name: Deploy report test
       uses: peaceiris/actions-gh-pages@v3.9.3
       if: always()
       with:

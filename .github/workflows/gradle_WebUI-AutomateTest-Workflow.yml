@@ -29,6 +29,10 @@ jobs:
     # Setup Gradlew
     - name: Setup Gradlew
       run: chmod +x gradlew
+
+    # Setup Executing Test
+    - name: Setup executing test
+      run: ./gradlew tesCucumber
       
     #Archive artifact test
     - name: Archive artifact result Test
@@ -45,10 +49,3 @@ jobs:
       with:
         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_DIR: reports
-
-    # Setup Executing Test
-    - name: Setup executing test
-      run : ./gradlew tesCucumber
-    
-  
-          

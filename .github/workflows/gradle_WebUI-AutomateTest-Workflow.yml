@@ -44,7 +44,7 @@ jobs:
       if: always()
       with:
         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        PUBLISH_DIR: reports/html
+        PUBLISH_DIR: reports
 
     # Setup Executing Test
     - name: Setup executing test

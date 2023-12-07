@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c785df0-65b2-447d-88e1-f785e2e17cdc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/CucumberTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/CucumberTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/gradle_WebUI-AutomateTest-Workflow.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/gradle_WebUI-AutomateTest-Workflow.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
